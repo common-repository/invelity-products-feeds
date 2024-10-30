@@ -1,0 +1,161 @@
+body {
+    background: #f1f1f1;
+}
+
+#feed_description {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.generalInput {
+    width: 300px;
+    border: #ccc 1px solid;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+    box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+}
+
+#price_field {
+    width: 250px;
+}
+
+.invelity-products-feeds form tr {
+    -webkit-box-shadow: 0px 2px 7px -6px rgba(82, 82, 82, 1);
+    -moz-box-shadow: 0px 2px 7px -6px rgba(82, 82, 82, 1);
+    box-shadow: 0px 2px 7px -6px rgba(82, 82, 82, 1);
+}
+
+.the-list-feed tr:nth-child(even),
+.invelity-products-feeds form tr:nth-child(even) {
+    background: #fff;
+}
+
+.the-list-feed tr:nth-child(odd),
+.invelity-products-feeds form tr:nth-child(odd) {
+    background: #fbfbfb;
+}
+
+.invelity-products-feeds form {
+    display: flex;
+}
+
+.invelity-products-feeds form>div:nth-of-type(1) {
+    flex-grow: 10;
+    margin-right: 15px;
+}
+
+.invelity-products-feeds-manage {
+    display: flex;
+}
+
+.wp-feed-box {
+    margin-right: 15px;
+}
+
+.custom-combobox {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+}
+
+.custom-combobox-input {
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.ui-state-default {
+    background: white;
+}
+
+.ui-widget {
+    font-size: 1.05em;
+}
+
+.selectDiv select,
+.smallDiv select {
+    line-height: 28px;
+    overflow: hidden;
+    background: url('../images/dropdown.png') no-repeat right #FEFEFE;
+    border: #ccc 1px solid;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+    box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    z-index: 100;
+    height: 28px;
+}
+
+.selectDiv select {
+    width: 270px;
+}
+
+.smallDiv select {
+    width: 55px;
+}
+
+.selectDiv select,
+.smallDiv select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.tr-heading {
+    /*	background: rgba(43, 20, 116, 0.77) !important;*/
+    margin-top: 5px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.tr-heading h4,
+thead tr h4 {
+    color: #4c18bf;
+}
+
+.tr-heading {
+    background: #fbfbfb;
+    border: 1px solid #ccc;
+}
+
+
+/*.selectDefault {
+	padding-left:8px;
+}*/
+
+
+/*.selectDiv select {
+
+	margin:0px;
+	padding:0px;
+	opacity:0;
+	filter:alpha(opacity=0);
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	display:block;
+	z-index:101;
+}*/
+
+
+/*.selectDiv select:focus {
+	outline: none;
+}*/
+
+
+/*.selectDefault, .selectDiv option {
+	font-family:arial;
+	font-size:12px;
+}*/
